@@ -73,6 +73,7 @@ namespace Reto5
         {
             try
             {
+                await client.SyncContext.PushAsync();
                 await torneoItemTable.PullAsync("allTorneoItems", torneoItemTable.CreateQuery().Where(
                     item => item.Email == emailParticipante
                     ));
