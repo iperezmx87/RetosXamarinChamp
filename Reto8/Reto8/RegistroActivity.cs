@@ -25,10 +25,10 @@ namespace reto8
             {
                 ServiceHelper helper = new ServiceHelper();
 
-                string email = "neomatrxisra25@hotmail.com"; //FindViewById<EditText>(Resource.Id.editTextEmail).Text;
+                string email = ""; //FindViewById<EditText>(Resource.Id.editTextEmail).Text;
                 //string reto = Intent.GetStringExtra("Reto");
 
-                string reto = "Reto8 + d86d5";
+                string reto = "Reto8 + ";
 
                 string androidId = Android.Provider.Settings.Secure.GetString(ContentResolver,
                     Android.Provider.Settings.Secure.AndroidId);
