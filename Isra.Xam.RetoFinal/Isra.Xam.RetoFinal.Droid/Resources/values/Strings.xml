@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">EmoHistory</string>
+  <string name="DescApp">App que guarda un historial de emociones de una persona.\nPara ganar el Xamarin Championship.</string>
+  <string name="DevName">Israel Pérez Saucedo.</string>
+  <string name="btnConsultaFoto">Consultar registros</string>
+  <string name="btnRegistrarFoto">Generar registro</string>
+  <string name="btnRegistrarReto">Registrar reto final :D</string>
+</resources>
